@@ -52,14 +52,36 @@
                     margin-right: auto;
                     width: 50%;
                 }
+
+                .masthead {
+                    position: relative;
+                    /* margin-bottom: 3rem; */
+                    /* padding-top: calc(8rem + 57px); */
+                    /* padding-bottom: 8rem; */
+                    background: no-repeat center center;
+                    background-color: #6c757d;
+                    background-size: cover;
+                    background-attachment: scroll;
+                }
+                .masthead:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: #212529;
+                    opacity: 0.5;
+                }
+                            
             </style>
 
             <!-- Home-->
             <section class="resume-section" id="home">
-            <!-- <section class="resume-section" id="about" style="background-color: rgba(0,0,0,.68); background-image: url(assets/img/bg.jpg);"> -->
+            <!-- <section class="resume-section masthead" id="home" style="background-image: url(assets/img/images/bg/home.jpg);"> -->
                 <div class="resume-section-content">
-                    <h1 class="mb-0 center">
-                        <!-- <h1 class="mb-0" style="color: #ffffff;"> -->
+                <!-- <div class="resume-section-content position-relative"> -->
+                    <h1 class="mb-0 center" style="color: #111111;">
                         Ashraf
                         <span class="text-primary">Qasem</span>
                     </h1>
@@ -71,7 +93,7 @@
             </section>
             <hr class="m-0" />
 
-            <div style="background-color: #111111;">
+            <div style="background-color: #111111; ">
                 <hr/><hr/>
             </div>
 
