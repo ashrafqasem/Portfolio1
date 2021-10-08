@@ -1,5 +1,5 @@
 $(function(){
-    $("#_Navigation").load("PartialViews/_Navigation.html"); 
+    $("#Navigation").load("PartialViews/Navigation.html"); 
 });
 
 $(function () {
