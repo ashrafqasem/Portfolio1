@@ -1,5 +1,15 @@
 // $(function(){
 //     $("#Navigation").load("PartialViews/Navigation.html"); 
+//     $("#Home").load("PartialViews/Home.html"); 
+//     $("#About").load("PartialViews/About.html"); 
+//     $("#Skills").load("PartialViews/Skills.html"); 
+//     $("#Projects").load("PartialViews/Projects.html"); 
+//     $("#Resume").load("PartialViews/Resume.html"); 
+//     $("#Education").load("PartialViews/Education.html"); 
+//     $("#Contact").load("PartialViews/Contact.html"); 
+//     $("#Experience").load("PartialViews/Experience.html"); 
+//     $("#Interests").load("PartialViews/Interests.html"); 
+//     $("#Awards").load("PartialViews/Awards.html"); 
 // });
 
 $(function () {
