@@ -1,6 +1,6 @@
-$(function(){
-    $("#Navigation").load("PartialViews/Navigation.html"); 
-});
+// $(function(){
+//     $("#Navigation").load("PartialViews/Navigation.html"); 
+// });
 
 $(function () {
     var includes = $('[data-include]')
