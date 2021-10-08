@@ -65,36 +65,23 @@
                 }                         
             </style>
 
-            <div data-include="_Home"></div>
+            <!-- <div data-include="_Home"></div>
             <div data-include="_About"></div>
             <div data-include="_Skills"></div>
             <div data-include="_Projects"></div>
             <div data-include="_Resume"></div>
             <div data-include="_Education"></div>
             <div data-include="_Contact"></div>
-            <!-- <div data-include="_Experience"></div> -->
-            <!-- <div data-include="_Interests"></div> -->
-            <!-- <div data-include="_Awards"></div> -->
+            <div data-include="_Experience"></div>
+            <div data-include="_Interests"></div>
+            <div data-include="_Awards"></div> -->
+            
 
         </div>
 
         <!-- Asharf-->
         <script src="lib/jquery/dist/jquery.min.js"></script>
-        <!-- <script src="js/Custom/Custom.js"></script> -->
-        <script>
-            $(function(){
-                $("#_Navigation").load("PartialViews/_Navigation.html"); 
-            });
-
-            $(function () {
-                var includes = $('[data-include]')
-                $.each(includes, function () {
-                    var file = 'PartialViews/' + $(this).data('include') + '.html'
-                    $(this).load(file)
-                })
-            })
-        </script>
-        <!-- Asharf-->
+        <script src="js/Custom/Custom.js"></script>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
