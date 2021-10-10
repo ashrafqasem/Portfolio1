@@ -7,6 +7,7 @@
 //     $("#Resume").load("PartialViews/Resume.html"); 
 //     $("#Education").load("PartialViews/Education.html"); 
 //     $("#Contact").load("PartialViews/Contact.html"); 
+//     $("#Footer").load("PartialViews/Footer.html"); 
 //     $("#Experience").load("PartialViews/Experience.html"); 
 //     $("#Interests").load("PartialViews/Interests.html"); 
 //     $("#Awards").load("PartialViews/Awards.html"); 
