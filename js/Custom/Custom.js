@@ -4,6 +4,7 @@
 //     $("#About").load("PartialViews/About.html"); 
 //     $("#Skills").load("PartialViews/Skills.html"); 
 //     $("#Projects").load("PartialViews/Projects.html"); 
+//     $("#Portfolio").load("PartialViews/Portfolio.html"); 
 //     $("#Resume").load("PartialViews/Resume.html"); 
 //     $("#Education").load("PartialViews/Education.html"); 
 //     $("#Contact").load("PartialViews/Contact.html"); 
