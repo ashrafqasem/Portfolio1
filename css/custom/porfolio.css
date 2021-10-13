@@ -1,6 +1,6 @@
 
   #portfolio .portfolio-item {
-    /* max-width: 26rem; */
+    /* max-width: 26rem;  */
     margin-left: auto;
     margin-right: auto;
 
@@ -42,9 +42,9 @@
     opacity: 1;
   }
   #portfolio .portfolio-item .portfolio-caption {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     text-align: center;
-    background-color: #fff;
+    background-color:  #4538bd; /* #fff; */
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.5rem;
@@ -56,32 +56,36 @@
     font-style: italic;
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
+
   /* .portfolio-modal .modal-dialog {
-    margin: 1rem;
+    margin: 1rem; 
     max-width: 100vw;
-  } */
+  }  */
   /* .portfolio-modal .modal-content {
     padding-top: 6rem;
-    padding-bottom: 6rem;
-    text-align: center;
+    padding-bottom: 6rem; 
+    text-align: center; 
   } */
 
   /* Ash */
-  /* .portfolio-modal .modal-dialog {
-    margin-top: 6.5%;
-    max-width: 100vw;
-  }  */
   .modalProject {
     margin-top: 3%;
-    /* margin-bottom: auto; */
-    margin-left: 15%;
-    /* margin-right: 10%; */
+    margin-bottom: auto; 
+    margin-left: 14.5%;
+    margin-right: auto; 
     max-width: 70vw;
   } 
   .modalLabel .modal-dialog {
-    margin-left: 12rem;
-    margin-right: 12rem;
-    max-width: 100vw;
+    /* margin-left: 12rem;
+    margin-right: 12rem; */
+    /* max-width: 100vw; */
+
+    /* Ash */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5%;
+    margin-bottom: auto;
+    max-width: 77vw;
   }
   /* .portfolio-modal .btn-close {
     font-size: 2rem;
@@ -104,9 +108,9 @@
   .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 2rem;
   }
-  .portfolio-modal .modal-content img {
+  /* .portfolio-modal .modal-content img {
     margin-bottom: 2rem;
-  }
+  } */
   .portfolio-modal .close-modal {
     position: absolute;
     top: 1.5rem;
