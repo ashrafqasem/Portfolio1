@@ -14,9 +14,23 @@
                 <div style="padding: 3%;">
 
                     <div class="row">
-                        <!-- <div class="col-lg-4 col-sm-6 mb-4"> -->
                         <div class="col-md">
                             <!-- Portfolio item 1-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content" >
+                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 3em">Events Manager</h1>
+                                            <i class="fas fa-plus fa-2x center"></i>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/images/Projects/aspNetWebApi/react/eventsManager/view/view01.png" alt="..." />
+                                </a>
+                                <div class="portfolio-caption-heading" style="text-align:center;">Asp.Net WebApi core + React</div>
+                            </div>
+                        </div>    
+                        <div class="col-md">
+                            <!-- Portfolio item 2-->
                             <div class="portfolio-item">
                                 <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                                     <div class="portfolio-hover">
@@ -25,28 +39,15 @@
                                             <i class="fas fa-plus fa-2x center"></i>
                                         </div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/images/Projects/AwesomeContact-Asp-Net-Mvc-Core/View/Awesome_Contact_01.png" alt="..." />
+                                    <img class="img-fluid" src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view01.png" alt="..." />
                                 </a>
-                                <div class="portfolio-caption">
-                                    <!-- <div class="portfolio-caption-heading">Awesome Contact</div> -->
-                                    <!-- <div class="portfolio-caption-subheading text-muted">Check it out</div> -->
-                                </div>
+                                <!-- <div class="portfolio-caption_">
+                                    <div class="portfolio-caption-heading" style="text-align:center;">Asp.Net Mvc core</div>
+                                    <div class="portfolio-caption-subheading text-muted">Check it out</div>
+                                </div> -->
+                                <div class="portfolio-caption-heading" style="text-align:center;">Asp.Net Mvc core</div>
                             </div>
                         </div>    
-                        <div class="col-md">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Explore</div>
-                                    <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     <!-- <div class="row">
@@ -129,7 +130,27 @@
                         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" style="padding-bottom:0rem;" ></button>
                     </div> 
                     <div class="modal-body text-center pb-5_">
-                        <div id="AwesomeContactPortfolio"></div>
+                        <div id="project1"></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <script>
+            $(function(){
+                $("#project1").load("PartialViews/projects/aspNetMvc/awesomeContact/awesomeContact.html");
+            });
+        </script>
+        
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal modalProject" id="portfolioModal2" tabindex="-2" aria-labelledby="portfolioModal2" aria-hidden="true" >
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0" style="padding-bottom: 0rem;" >
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" style="padding-bottom:0rem;" ></button>
+                    </div> 
+                    <div class="modal-body text-center pb-5_">
+                        <div id="project2"></div>
                     </div>
                 </div>
             </div>
@@ -137,44 +158,10 @@
 
         <script>
             $(function(){
-                $("#AwesomeContactPortfolio").load("PartialViews/PartialViews/Projects/AwesomeContact/AwesomeContact.html");
+                $("#project2").load("partialViews/projects/aspNetWebApi/react/eventsManager/eventsManager.html");
             });
         </script>
-        
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0">
-                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
