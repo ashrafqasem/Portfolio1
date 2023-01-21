@@ -19,5 +19,7 @@ $(function () {
     $.each(includes, function () {
         var file = 'PartialViews/' + $(this).data('include') + '.html'
         $(this).load(file)
-    })
-})
+    });
+
+});
+
