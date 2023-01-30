@@ -20,13 +20,13 @@
                                 <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal_2">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-hover-content" >
-                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 3em">Activities Hub</h1>
+                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 2em">Activities Hub</h1>
                                             <i class="fas fa-plus fa-2x center"></i>
                                         </div>
                                     </div>
                                     <img class="img-fluid" src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt="..." />
                                 </a>
-                                <div class="portfolio-caption-heading" style="text-align:center;">Asp.Net WebApi Core + React</div>
+                                <div class="portfolio-caption-heading" style="text-align:center;">Asp.Net WebApi + React</div>
                             </div>
                         </div>    
                         <div class="col-md">
@@ -35,7 +35,7 @@
                                 <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal_1">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-hover-content" >
-                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 3em">Awesome Contact</h1>
+                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 2em">Awesome Contact</h1>
                                             <i class="fas fa-plus fa-2x center"></i>
                                         </div>
                                     </div>
@@ -50,8 +50,42 @@
                         </div>    
                     </div>
 
-                    <!-- <div class="row">
+                    <div style="padding-top:0px; padding-bottom:30px;" ></div>
+
+                    <!-- <div class="row"> -->
+                    <div class="row center" style="width: 51%">
                         <div class="col-md">
+                            <!-- Portfolio item 3-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal_3">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content" >
+                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 2em">Movie Land</h1>
+                                            <i class="fas fa-plus fa-2x center"></i>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/images/Projects/react/reactjs/movieLand/view/view01.png" alt="..." />
+                                </a>
+                                <div class="portfolio-caption-heading" style="text-align:center;">React</div>
+                            </div>
+                        </div>    
+
+                        <!-- <div class="col-md">
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal_2">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content" >
+                                            <h1 class="portfolio-caption-subheading text-muted" style="font-weight: bold; font-size: 3em">Activities Hub</h1>
+                                            <i class="fas fa-plus fa-2x center"></i>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt="..." />
+                                </a>
+                                <div class="portfolio-caption-heading" style="text-align:center;">Asp.Net WebApi Core + React</div>
+                            </div>
+                        </div>     -->
+
+                        <!-- <div class="col-md">
                             <div class="portfolio-item">
                                 <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                                     <div class="portfolio-hover">
@@ -78,10 +112,10 @@
                                     <div class="portfolio-caption-subheading text-muted">Branding</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-md">
                             <div class="portfolio-item">
                                 <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
@@ -110,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>  -->
 
                 </div>
             </div>
@@ -130,7 +164,7 @@
                         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" style="padding-bottom:0rem;" ></button>
                     </div> 
                     <div class="modal-body text-center pb-5_">
-                        <div id="project1"></div>
+                        <div id="project_1"></div>
                     </div>
                 </div>
             </div>  
@@ -138,7 +172,7 @@
 
         <script>
             $(function(){
-                $("#project1").load("PartialViews/projects/aspNetMvc/awesomeContact/awesomeContact.html");
+                $("#project_1").load("PartialViews/projects/aspNetMvc/awesomeContact/awesomeContact.html");
             });
         </script>
         
@@ -150,7 +184,7 @@
                         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" style="padding-bottom:0rem;" ></button>
                     </div> 
                     <div class="modal-body text-center pb-5_">
-                        <div id="project2"></div>
+                        <div id="project_2"></div>
                     </div>
                 </div>
             </div>
@@ -158,7 +192,27 @@
 
         <script>
             $(function(){
-                $("#project2").load("PartialViews/projects/aspNetWebApi/react/activitiesHub/activitiesHub.html");
+                $("#project_2").load("PartialViews/projects/aspNetWebApi/react/activitiesHub/activitiesHub.html");
+            });
+        </script>
+
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal modalProject" id="portfolioModal_3" tabindex="-1" aria-labelledby="portfolioModal_3" aria-hidden="true" >
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0" style="padding-bottom: 0rem;" >
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" style="padding-bottom:0rem;" ></button>
+                    </div> 
+                    <div class="modal-body text-center pb-5_">
+                        <div id="project_3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(function(){
+                $("#project_3").load("PartialViews/projects/react/reactjs/movieLand//movieLand.html");
             });
         </script>
 
